@@ -31,7 +31,7 @@ const resolveCustomTfjsPlugin: Plugin = {
 
 export default defineConfig({
   target: 'es2019',
-  platform: 'browser',
+  platform: 'node',
   format: ['esm', 'cjs'],
   dts: true,
   sourcemap: true,
