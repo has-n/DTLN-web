@@ -13,6 +13,7 @@
     "node": ">=12"
   },
   "scripts": {
+    "prepare": "npm run build",
     "start": "tsup src/index.ts --watch src",
     "build": "npm run build:tfjs && npm run build:ts && npm run build:models",
     "build:ts": "tsup src/index.ts",

@@ -90,3 +90,4 @@ typings/
 .vscode
 dist/
 /custom_tfjs
+package-lock.json
