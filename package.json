@@ -39,7 +39,7 @@
   },
   "sideEffects": false,
   "devDependencies": {
-    "@tensorflow/tfjs": "^3.11.0",
+    "@tensorflow/tfjs": "^3.13.0",
     "@tensorflow/tfjs-tflite": "^0.0.1-alpha.8",
     "@typescript-eslint/eslint-plugin": "^5.5.0",
     "@typescript-eslint/parser": "^5.5.0",
