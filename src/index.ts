@@ -9,6 +9,11 @@ export {
 } from './DtlnProcessorNode'
 
 export {
+  createAecProcess
+} from './aecProcess'
+
+
+export {
   loadAecModel,
   createDtlnAecProcessorNode
 } from './DtlnAecProcessorNode'

@@ -20155,6 +20155,7 @@ var require_tflite_web_api_client = __commonJS({
 // src/index.ts
 var src_exports = {};
 __export(src_exports, {
+  createAecProcess: () => createAecProcess,
   createDtlnAecProcessorNode: () => createDtlnAecProcessorNode,
   createDtlnProcessorNode: () => createDtlnProcessorNode,
   loadAecModel: () => loadAecModel,
@@ -26637,9 +26638,6 @@ var createDtlnProcessorNode = (ctx, { channelCount = 2 }) => {
   return node;
 };
 
-// src/DtlnAecProcessorNode.ts
-init_cjs_shims();
-
 // src/aecProcess.ts
 init_cjs_shims();
 var createAecProcess = (model13, model23) => {
@@ -26708,6 +26706,7 @@ var createAecProcess = (model13, model23) => {
 };
 
 // src/DtlnAecProcessorNode.ts
+init_cjs_shims();
 var model12;
 var model22;
 var loadAecModel = async ({
@@ -26752,6 +26751,7 @@ var createDtlnAecProcessorNode = (ctx) => {
 module.exports = __toCommonJS(src_exports);
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
+  createAecProcess,
   createDtlnAecProcessorNode,
   createDtlnProcessorNode,
   loadAecModel,

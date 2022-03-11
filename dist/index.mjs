@@ -26635,9 +26635,6 @@ var createDtlnProcessorNode = (ctx, { channelCount = 2 }) => {
   return node;
 };
 
-// src/DtlnAecProcessorNode.ts
-init_esm_shims();
-
 // src/aecProcess.ts
 init_esm_shims();
 var createAecProcess = (model13, model23) => {
@@ -26706,6 +26703,7 @@ var createAecProcess = (model13, model23) => {
 };
 
 // src/DtlnAecProcessorNode.ts
+init_esm_shims();
 var model12;
 var model22;
 var loadAecModel = async ({
@@ -26748,6 +26746,7 @@ var createDtlnAecProcessorNode = (ctx) => {
   return node;
 };
 export {
+  createAecProcess,
   createDtlnAecProcessorNode,
   createDtlnProcessorNode,
   loadAecModel,
